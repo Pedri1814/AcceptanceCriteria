@@ -1,0 +1,23 @@
+feature: US02: Interacción en carreras
+
+Como usuario quiero tener acceso ilimitado a algunas opciones de la aplicación
+
+Scenario E01: Navegación en carreras
+
+Given que el usuario está registrado en la suscripción mensual
+
+When requiere hacer uso de la aplicación Vocational Finder
+
+And seleccione la opción de carreras
+
+Then se desplegarán todas las opciones de carreras por especialidades, con acceso ilimitado
+
+Scenario E02: Información específica por carrera
+
+Given que el usuario registrado se encuentra en la aplicación
+
+And requiere saber la información sobre alguna carrera
+
+When presione alguna carrera
+
+Then instantáneamente se tendrá acceso a la información de esta
