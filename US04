@@ -1,0 +1,14 @@
+Feature: US04-Perfil e información del usuario
+
+Como usuario 
+Deseo poder personalizar mi perfil
+
+Scenario E01: Personalización del perfil
+
+              Given que el usuario desea personalizar su perfil
+
+              When vaya al ícono de perfil
+
+              And seleccione la opción de editar perfil
+
+              Then el usuario podrá editar su perfil según sus preferencias
