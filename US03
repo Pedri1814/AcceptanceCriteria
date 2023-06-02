@@ -1,0 +1,24 @@
+Feature: US03-Navegación por especialistas
+
+Como usuario 
+Quiero saber qué tipo de especialistas tienen y reservar citas con ellos
+
+Scenario E01: Conocer a los especialistas
+
+             Given que el usuario accede a la opción de especialistas en la app
+             
+             When seleccione la opción de especialista
+             
+             And seleccione alguna especialidad y carrera
+             
+             Then podrá conocer los especialistas disponibles en la app.
+
+Scenario E02: Reservación de citas
+
+             Given que el usuario accedió a la opción de especialistas
+             
+             And se encuentre en la sección de especialistas según carrera
+             
+             When presione la opción de chat
+             
+             Then el usuario podrá iniciar una conversación con el especialista
