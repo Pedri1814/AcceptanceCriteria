@@ -1,0 +1,14 @@
+Feature: US05-Acceso a mi historial de resultados en los test
+
+Como usuario 
+Deseo poder contar con un historial de resultados cuando haga un test
+
+Scenario E01: Historial de resultados después de cada test vocacional
+
+              Given que el usuario realizó un test vocacional
+              
+              When le salgan los resultados
+              
+              And presione la opción de perfil
+              
+              Then debajo de los datos, aparecerá el historial de resultados
