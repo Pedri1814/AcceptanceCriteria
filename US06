@@ -1,0 +1,25 @@
+Feature: US06-Realizar un test vocacional
+
+Como usuario 
+Quiero realizar test vocacionales
+
+Scenario E01: Usuario cuenta con la categoría gratuita
+
+              Given que el usuario tiene la categoría gratuita
+              
+              When vaya a la opción de inicio
+              
+              And seleccione el test vocacional
+              
+              Then se abrirá una pantalla y solo permitirá 3 intentos 
+              de test vocacionales
+
+Scenario E02: Usuario con cuenta de categoría mensual
+
+              Dado que el usuario cuenta con la categoría mensual
+              
+              When vaya a la opción de inicio
+              
+              And seleccione la opción de test vocacional
+              
+              Then podrá realizar los test vocacionales de manera ilimitada
