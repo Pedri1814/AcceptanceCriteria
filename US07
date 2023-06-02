@@ -1,0 +1,13 @@
+Feature: US07-Configuración de la aplicación
+
+Como usuario 
+Deseo poder configurar la aplicación para poder aprovecharlo al máximo
+
+Scenario E01: Acceso a la parte de configuración de la app
+
+              Given que el usuario se encuentre en la página de inicio
+              
+              When seleccione el ícono de configuración
+              
+              Then el usuario podrá ver toda la política de trabajo de 
+              la aplicación
