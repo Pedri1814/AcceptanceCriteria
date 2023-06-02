@@ -1,0 +1,22 @@
+Feature: US08-Tipo de suscripción
+
+Como usuario 
+Deseo tener opciones de tipo de suscripción
+
+Scenario E01: Suscripción gratuita
+
+              Given que el usuario solo quiera hacer uso de la suscripción gratuita
+              
+              When seleccione cualquier opción
+              
+              Then tendrá usos limitados y no tendrá acceso a más funcionalidades 
+              debido al bloqueo de la suscripción gratuita
+
+Scenario E02: Suscripción mensual
+
+              Given que el usuario quiera hacer uso de la suscripción mensual
+              
+              When seleccione cualquier opción
+              
+              Then el usuario tendrá acceso ilimitado a todas las opciones 
+              que ofrece la aplicación debido a su suscripción mensual
